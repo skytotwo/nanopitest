@@ -99,7 +99,7 @@ jobs:
         run: |
           cd friendlywrt-h5/friendlywrt
           rm -f ./.config*
-          wget https://raw.githubusercontent.com/skytotwo/nanopitest/master/r1s-h5-config
+          wget https://raw.githubusercontent.com/skytotwo/build_openwrt_by_action/master/r1s-h5-config
           cp r1s-h5-config .config
       
       - name: Download package
